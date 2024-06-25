@@ -1,0 +1,155 @@
+body {
+    /* Ensuring the color is applied */
+    font-family: Arial, sans-serif;
+}
+
+.common-style {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    color: white;
+    font-family: Calibri, sans-serif;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display {
+    margin-top: 20px;
+    font-size: 5rem;
+    /* Increased font size */
+    font-weight: bold;
+}
+
+.lead {
+    margin-top: 10px;
+    font-size: 5rem;
+    /* Increased font size */
+}
+
+.div1 {
+    background-color: white;
+    color: black;
+}
+
+.div2 {
+    background-color: rgb(226, 87, 110);
+    color: white;
+}
+
+.div3 {
+    background-color: white;
+    color: black;
+}
+
+.div4 {
+    background-color: black;
+    color: white;
+}
+
+.btn-light {
+    color: #000;
+    font-size: 2.5rem;
+    /* Increased font size */
+}
+
+.btn-dark {
+    color: #fff;
+    font-size: 2.5rem;
+    /* Increased font size */
+}
+
+body {
+    font-family: 'Calibri', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #ff6f61 !important;
+}
+
+.blog-card {
+    background-color: #fde2e4 !important;
+    border: 1px solid #ffb6b9 !important;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.blog-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.blog-link:hover {
+    color: #ff6f61 !important;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+@media (max-width: 576px) {
+    .blog-card {
+        margin-bottom: 20px;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 60px 20px;
+}
+
+h3 {
+    color: #343a40;
+}
+
+p {
+    color: #6c757d;
+}
+
+.btn-custom {
+    background-color: #ff69b4 !important;
+    /* Pink color */
+    color: #fff;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #c5066c !important;
+    /* Darker pink */
+}
+
+.feature-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-body-emphasis {
+    color: #343a40 !important;
+}
+
+.bg-body-secondary {
+    background-color: #e9ecef !important;
+}
