@@ -51,22 +51,22 @@ This is a simple blog management website that allows users to create, update, an
 - **Styling**: Bootstrap 5
 
 ## Project Structure
-blog-management-website/
-├── creation/ # Directory containing blog HTML files
-├── public/ # Public assets (CSS, JS, images)
-├── views/ # EJS templates
-│ ├── partials/ # EJS partial templates (header, footer, etc.)
-│ ├── index.ejs # Home page
-│ ├── create.ejs # Create blog page
-│ ├── update.ejs # Update blog page
-│ ├── delete.ejs # Delete blog page
-│ ├── features.ejs # Features page
-│ ├── faq.ejs # FAQ page
-│ ├── about.ejs # About page
-│ └── createdblog.ejs # Page showing all created blogs
-├── app.js # Main application file
-├── package.json # Node.js package configuration
-└── README.md # Project README file
+- blog-management-website/
+- ├── creation/ # Directory containing blog HTML files
+- ├── public/ # Public assets (CSS, JS, images)
+- ├── views/ # EJS templates
+- │ ├── partials/ # EJS partial templates (header, footer, etc.)
+- │ ├── index.ejs # Home page
+- │ ├── create.ejs # Create blog page
+- │ ├── update.ejs # Update blog page
+- │ ├── delete.ejs # Delete blog page
+- │ ├── features.ejs # Features page
+- │ ├── faq.ejs # FAQ page
+- │ ├── about.ejs # About page
+- │ └── createdblog.ejs # Page showing all created blogs
+- ├── app.js # Main application file
+- ├── package.json # Node.js package configuration
+- └── README.md # Project README file
 
 ## Contributing
 1. **Fork the repository**.
